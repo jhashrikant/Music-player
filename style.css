@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* yaha upar margin and padding 0 hojayga sab element ke liye */
+
+nav {
+    
+    font-family: 'Ubuntu',sans-serif;
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+
+nav ul li {
+    padding: 0 12px;  /* this will have 0px in top and bottom and 12px from left &right*/
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    
+}
+
+
+.brand  img {
+    width: 45px;
+    padding: 0px 8px;
+}
+
+.bottom {
+    height: 130px;
+    position: sticky;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    
+    
+}
+
+.icons {
+    margin-top: 10px;
+    padding: 25px;
+    font-size: 23px;
+    
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+
+.container {
+    min-height: 72vh;  /*  75 vh means 72 percent of height*/
+    background-color: black; 
+    color: white;
+    font-family: 'Varela Round','sans-serif';
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 13px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+}
+
+#myProgressBar{
+    width: 80vw;     /*  means ki 80 percent of width if isko 100 krte to pura screen le leta*/
+    cursor: pointer;
+
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+
+}
+
+.songItemContainer {
+    margin-top: 65px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 23px 15px;
+    border-radius: 34px;
+}
+
+
+.timestamp {
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round','sans-serif';
+
+}
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+/* About page */
+
+.main_container{
+    min-height: 72vh;
+    
+    
+    
+}
+
+.Article_card{
+    display: block;
+    box-sizing: border-box;
+    margin: 75px auto;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+    padding: 32px;
+
+
+}
+
+.Article_card h1{
+    margin-bottom: 35px;
+    font-size: 42px;
+}
+
+p{
+    font-size: 18px;
+}
+.Article_card div {
+    display: block;
+    margin: 12px;
+}
+
+
