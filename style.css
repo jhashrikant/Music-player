@@ -177,4 +177,15 @@ p{
     margin: 12px;
 }
 
+/*  for tablets and mobiles  */
 
+ 
+@media (max-width: 500px){
+    .songListPlay{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+    }
+    
+}
